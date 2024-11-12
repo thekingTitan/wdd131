@@ -1,0 +1,75 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr ;
+    background: rgb(80, 82, 162);
+    color: aliceblue;
+}
+
+header h1{
+    text-align: center;
+    
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: rgb(45, 45, 45);
+    color: aliceblue;
+
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+    
+    
+}
+
+section h2{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: rgb(80, 82, 162); 
+    margin: 2px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: aliceblue;
+
+    
+}
+
+section h3{
+    text-align: center;
+    
+}
+
+
+
+
+section img{
+    width: 200px;
+    height: 270px;
+    margin-right: 15px;
+
+}
+
+main{
+    
+    border: 1px solid #110c0c;
+    border-radius: 17px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr ;
+    background: rgb(80, 82, 162);
+    color: aliceblue;
+    text-align: center;
+    
+}
+
