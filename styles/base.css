@@ -35,6 +35,7 @@ header nav {
   }
 nav a{
     color: azure;
+    
 }
   nav a:hover{
     background-color: cornflowerblue;
@@ -172,6 +173,23 @@ h3::after {
     position: relative;
     right: 1px;
     bottom: 2rem;
+}
+
+header nav {
+    display: flex;
+    flex:1;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: rgb(45, 45, 45);
+    color: aliceblue;
+    padding-left: 100px;
+    gap: 20%;
+    
+  }
+
+  nav a{
+    color: azure;
+    position: relative;
+    left: 20%;
 }
 }
 
