@@ -189,8 +189,21 @@ header nav {
   nav a{
     color: azure;
     position: relative;
-    left: 20%;
+    left: -20%;
 }
+
+section{  
+    position: relative; 
+    border: 1px solid #110c0c;
+    border-radius: 17px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left:0;
+    width: 100%;
+    
+}
+
 }
 
 @media (max-width: 1000px) {
