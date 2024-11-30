@@ -93,3 +93,13 @@ footer {
   color: #fff;
   border-top: 1px solid #495057;
 }
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 8px;
+}

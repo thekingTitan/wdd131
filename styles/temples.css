@@ -72,4 +72,16 @@
       color: #fff;
       text-align: center;
   }
+
+  figure {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  figcaption {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
 }
