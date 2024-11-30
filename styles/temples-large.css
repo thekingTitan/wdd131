@@ -12,7 +12,8 @@ h1, h2 {
   padding: 0;
   font-weight: bold;
 }
-h2{
+
+h2 {
   text-align: center;
 }
 
@@ -32,11 +33,17 @@ header {
   background: linear-gradient(90deg, #343a40, #495057);
   color: #fff;
   padding: 20px;
+  position: relative;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 10px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none; /* Hidden by default */
 }
 
 /* Navigation */
@@ -67,7 +74,7 @@ nav a:hover {
 
 img {
   width: 100%;
-  height: auto;
+  height: 300px;
   object-fit: cover;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

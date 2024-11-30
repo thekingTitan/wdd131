@@ -7,8 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <meta name="description" content="WDD 131: Dynamic Web Fundamentals | Emmanuel Igwe | This is for learning purposes">
-    <meta name="author" content="Emmanuel Igwe">
     <link rel="stylesheet" href="styles/temples-large.css">
     <link rel="stylesheet" href="styles/temples.css">
     <script src="scripts/temples.js" defer></script>
@@ -16,35 +14,34 @@
 <body>
     <header>
         <h1>Temple Album</h1>
-        <nav>
-            <a href="Home">Home</a>
-            <a href="Home">Old</a>
-            <a href="Home">New</a>
-            <a href="Home">Large</a>
-            <a href="Home">Small</a>
+        <button class="hamburger" aria-label="Toggle navigation">
+            &#9776;
+        </button>
+        <nav class="hidden">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="old-temples.html">Old</a>
+            <a href="new-temples.html">New</a>
+            <a href="temples-large.html">Large</a>
+            <a href="temples-small.html">Small</a>
         </nav>
-
     </header>
     <main>
-        <h2>Home</h2>
-        <div class="images">
-        <img src="images/th.jpeg" alt="temple">
-        <img src="images/th.jpeg" alt="temple">
-        <img src="images/th.jpeg" alt="temple">
-        <img src="images/th.jpeg" alt="temple">
-        <img src="images/th.jpeg" alt="temple">
-        <img src="images/th.jpeg" alt="temple">
-        <img src="images/th.jpeg" alt="temple">
-        <img src="images/th.jpeg" alt="temple">
-        <img src="images/th.jpeg" alt="temple">
-        </div>
-
+        <h2>Temple Images</h2>
+        <section class="images">
+            <img src="images/aba_nigeria_temple_lds.jpeg" alt="View of Temple 1">
+            <img src="images/boston_temple_lds.jpeg" alt="View of Temple 2">
+            <img src="images/cordoba_argentina_temple_rendering.jpeg" alt="Historic Temple with intricate carvings">
+            <img src="images/detroit_temple.jpeg" alt="View of Temple 2">
+            <img src="images/freiberg_germany_temple_lds.jpeg" alt="View of Temple 2">
+            <img src="images/hamilton_new_zealand_lds_temple.jpeg" alt="View of Temple 2">
+            <img src="images/helsinki_finland_temple_lds.jpeg" alt="View of Temple 2">
+            <img src="images/salt-lake temple.webp" alt="View of Temple 2">
+            <img src="images/kirtland_temple.jpeg" alt="View of Temple 2">
+        </section>
     </main>
     <footer>
-        <p id="copyright"></p>
-        <p id="last-modified"></p>
-
+        <p id="copyright">&copy; 2024 Temple Album</p>
+        <p id="last-modified">Last Modified: <span id="mod-date"></span></p>
     </footer>
-    
 </body>
 </html>
