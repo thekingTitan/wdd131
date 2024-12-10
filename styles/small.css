@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #006a4e;
+    --secondary-color: #ffce00;
+    --text-color: #333;
+    --accent-color: #ffffff;
+    --background-color: #f4f4f4;
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+}
+
+/* General Styling */
+body {
+    font-family: var(--font-secondary);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    text-align: center;
+    padding: 1.5rem;
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero {
+    text-align: center;
+    margin: 0;
+}
+
+.hero img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.weather {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.weather p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Paradise</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Small Screen CSS -->
+    <link rel="stylesheet" href="styles/small.css" media="screen and (max-width: 767px)">
+    <!-- Large Screen CSS -->
+    <link rel="stylesheet" href="styles/large.css" media="screen and (min-width: 768px)">
+</head>
+<body>
+    <header>
+        <h1>Discover Paradise</h1>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <picture>
+                <source srcset="images/landscape-Africa-trees.webp" media="(min-width: 1024px)">
+                <source srcset="images/landscape-Africa-trees.webp" media="(min-width: 768px)">
+                <img src="images/landscape-Africa-trees.webp" alt="Breathtaking Landscape">
+            </picture>
+            <!-- Floating Weather Section -->
+            <div class="weather">
+                <h2>Current Weather <span class="icon">⛅</span></h2>
+                <p><strong>Temperature:</strong> <span id="temp">10°C</span></p>
+                <p><strong>Wind Speed:</strong> <span id="wind-speed">5 km/h</span></p>
+                <p><strong>Wind Chill:</strong> <span id="wind-chill">Calculating...</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Discover Paradise. Last Updated: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="scripts/place.js" defer></script>
+</body>
+</html>

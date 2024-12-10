@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #006a4e;
+    --secondary-color: #ffce00;
+    --text-color: #333;
+    --accent-color: #ffffff;
+    --background-color: #f4f4f4;
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+}
+
+/* General Styling */
+body {
+    font-family: var(--font-secondary);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    text-align: center;
+    padding: 2rem;
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.weather {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    font-family: var(--font-primary);
+}
+
+.weather h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.weather p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.weather .icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
