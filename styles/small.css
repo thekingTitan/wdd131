@@ -66,3 +66,17 @@ footer {
     background-color: var(--primary-color);
     color: var(--accent-color);
 }
+
+/* Example ::after Usage */
+h1::after {
+    content: '🌟';
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .weather {
+        padding: 1.5rem;
+    }
+}
