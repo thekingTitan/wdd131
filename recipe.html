@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Book</title>
+    <link rel="stylesheet" href="styles/recipe.css">
+</head>
+<body>
+    <!-- Common Navigation -->
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="personal-recipe.html">Home</a></li>
+                <li><a href="recipe.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Recipes Page Content -->
+    <main>
+        <section id="recipes">
+            <h1>Recipes</h1>
+            <p>Browse through your personal collection of recipes below. Use the search bar to find specific recipes.</p>
+            <input type="text" id="search-bar" placeholder="Search recipes...">
+            <div id="recipe-list">
+                <!-- Recipes will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="add-recipe">
+            <h2>Add Your Recipe</h2>
+            <form id="recipe-form">
+                <label for="recipe-title">Recipe Title</label>
+                <input type="text" id="recipe-title" name="title" placeholder="Enter recipe title" required>
+
+                <label for="recipe-description">Description</label>
+                <textarea id="recipe-description" name="description" placeholder="Enter recipe description" rows="4" required></textarea>
+
+                <label for="recipe-image">Upload Image</label>
+                <input type="file" id="recipe-image" name="image" accept="image/*" required>
+
+                <button type="submit">Add Recipe</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Recipe Book. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts/recipe.js" defer></script>
+</body>
+</html>
